@@ -15,7 +15,7 @@ public class Game extends Application{
 		player = new MyPlayer(map);  
 		food = new Food(map, player);
 		Circle ball = player.getBall();
-		Scene scene = new Scene(map);/*
+		Scene scene = new Scene(map);
 		ball.setOnKeyPressed(e->{    
 			switch(e.getCode()){
 				case UP:
@@ -55,7 +55,7 @@ public class Game extends Application{
 					}
 					break;
 			}
-		});*/
+		});/*
 		scene.setOnKeyPressed(ev->{
 			switch(ev.getCode()){
 				case E:
@@ -77,7 +77,7 @@ public class Game extends Application{
 					((MyBotPlayer)player).find();
 					break;
 			}
-		});
+		});*/
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		ball.requestFocus();
