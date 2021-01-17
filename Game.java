@@ -55,17 +55,17 @@ public class Game extends Application{
 					}
 					break;
 			}
-		});/*
+		});
 		scene.setOnKeyPressed(ev->{
 			switch(ev.getCode()){
 				case E:
 					System.out.println("E (eat) key pressed");
 					map.getChildren().remove(1);
 					map.getChildren().remove(1);
-					player = new MyBotPlayer2(map);
+					player = new MyBotPlayer(map);
 					food = new Food(map, player);
-					((MyBotPlayer2)player).feed(food);
-					((MyBotPlayer2)player).eat();
+					((MyBotPlayer)player).feed(food);
+					((MyBotPlayer)player).eat();
 					break;
 				case F:
 					System.out.println("F (find) key pressed");
@@ -77,7 +77,7 @@ public class Game extends Application{
 					((MyBotPlayer)player).find();
 					break;
 			}
-		});*/
+		});
 		primaryStage.setScene(scene);
 		primaryStage.show();
 		ball.requestFocus();
