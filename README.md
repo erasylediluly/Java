@@ -12,4 +12,4 @@ The user uses the keyboard to move around the map
 - Automatic:
 Using the Lee algorithm (wave algorithm), the player's ball itself moves along the playing field, finding the shortest path
 ***
-![Demo](DemoYoutube.gif =250x250)
+<img src="DemoYoutube.gif" width="400" height="400" />
